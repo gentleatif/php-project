@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>order</title>
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="whole.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Details</header>
+      <form action="login.php" class="form" method="post">
+        <div class="input-box">
+          <label>Name : </label>
+          <input type="text" placeholder="Enter full name" required />
+        </div>
+
+        <div class="input-box">
+          <label>Email Address : </label>
+          <input type="email" placeholder="Enter email address" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number : </label>
+            <input type="number" placeholder="Enter phone number" required />
+          </div>
+          
+          
+        </div>
+        
+        
+        <div class="input-box address">
+          <label>Products</label>
+          
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>Products</option>
+                <option>MAMRA BADAM 5 STAR</option>
+                <option>MAMRA BADAM 7 STAR</option>
+                <option>AMERICAN BADAM</option>
+                <option>TUKDA KAJU</option>
+                <option>PLATINUM KAJU</option>
+                <option>GOLD KAJU</option>
+                
+              </select>
+            </div>
+            <input type="text" placeholder="Quantity" required />
+          </div>
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>Country</option>
+                <option>America</option>
+                <option>Japan</option>
+                <option>India</option>
+                <option>Nepal</option>
+              </select>
+            </div>
+            <input type="text" placeholder="Enter your city" required />
+          </div>
+          <div class="column">
+            <input type="text" placeholder="Enter your state" required />
+            <input type="number" placeholder="Enter postal code" required />
+          </div>
+          <div class="column">
+            <input type="text" placeholder="Lane" required />
+            <input type="number" placeholder="Area" required />
+            
+          </div>
+        </div>
+        <button><a href="placed.html">Submit</a></button>
+      </form>
+    </section>
+  </body>
+</html>

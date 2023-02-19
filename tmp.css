@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: transparent;
+	padding: 20px 14%;
+	transition: all .35s ease;
+}
+.navlist{
+	position: fixed;
+    left: 60rem;
+    top: 2rem;
+}
+.navlist a{
+	color: var(--text-color);
+	font-weight: 600;
+	padding: 10px 25px;
+	font-size: var(--normal-font);
+	transition: all .36s ease;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.navlist a:hover{
+	color: var(--main-color);
+}
